@@ -1,22 +1,88 @@
 {
-    "blogs": [
-        {
-            "title": "My First Blog Post",
-            "body": "This is the body of my first blog post. It's a great day to be blogging!",
-            "author": "mario",
-            "id": 1
-        },
-        {
-            "title": "Exciting News!",
-            "body": "We have some exciting news to share with you all. Stay tuned for more details!",
-            "author": "yoshi",
-            "id": 2
-        },
-        {
-            "title": "Another Blog Post",
-            "body": "Just another blog post to keep things interesting. Hope you're enjoying the content!",
-            "author": "mario",
-            "id": 3
-        }
-    ]
+  "blogs": [
+    {
+      "title": "My First Blog Post",
+      "body": "This is the body of my first blog post. It's a great day to be blogging!",
+      "author": "mario",
+      "id": "1"
+    },
+    {
+      "title": "Exciting News!",
+      "body": "We have some exciting news to share with you all. Stay tuned for more details!",
+      "author": "yoshi",
+      "id": "2"
+    },
+    {
+      "title": "Another Blog Post",
+      "body": "Just another blog post to keep things interesting. Hope you're enjoying the content!",
+      "author": "mario",
+      "id": "3"
+    },
+    {
+      "id": "7909",
+      "title": "Test",
+      "body": "hi there hello",
+      "author": "yoshi"
+    },
+    {
+      "id": "05d2",
+      "title": "Test",
+      "body": "hi there hello",
+      "author": "yoshi"
+    },
+    {
+      "id": "f015",
+      "title": "Test",
+      "body": "hi there hello",
+      "author": "yoshi"
+    },
+    {
+      "id": "bedc",
+      "title": "Test",
+      "body": "hi there hello",
+      "author": "yoshi"
+    },
+    {
+      "id": "f60f",
+      "title": "Test",
+      "body": "hi there hello",
+      "author": "yoshi"
+    },
+    {
+      "id": "378b",
+      "title": "Test",
+      "body": "hi there hello",
+      "author": "yoshi"
+    },
+    {
+      "id": "b4d4",
+      "title": "Test",
+      "body": "hi there hello",
+      "author": "yoshi"
+    },
+    {
+      "id": "2085",
+      "title": "Testkjh",
+      "body": "hi there hellohhh",
+      "author": "yoshi"
+    },
+    {
+      "id": "7eb4",
+      "title": "Testkjh",
+      "body": "hi there hellohhh",
+      "author": "yoshi"
+    },
+    {
+      "id": "1901",
+      "title": "Testkjh",
+      "body": "hi there hellohhh",
+      "author": "yoshi"
+    },
+    {
+      "id": "7a31",
+      "title": "Testkjh",
+      "body": "hi there hellohhh",
+      "author": "yoshi"
+    }
+  ]
 }
