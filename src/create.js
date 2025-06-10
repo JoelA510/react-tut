@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Create = () => {
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('yoshi');
     const [isPending, setIsPending] = useState(false);
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -21,11 +21,8 @@ const Create = () => {
         }).then(() => {
             console.log('new blog added');
             setIsPending(false);
-            //history.go(1);
-            history.push('/');
+            navigate('/');
         });
-    
-    
     }
 
     return ( 
@@ -55,12 +52,9 @@ const Create = () => {
                 </select>
                 { !isPending && <button>Add Blog</button> }
                 { isPending && <button disabled>Adding blog...</button> }
-                <p>{ title }</p>
-                <p>{ body }</p>
-                <p>{ author }</p>
             </form>
         </div>
      );
-    }
+}
 
-    export default Create;
+export default Create;
