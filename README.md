@@ -1,1 +1,1 @@
-My own react tut!# json-server
+React Tut from NetNinja, now being repurposed through Vercel hosting and serverless functions!
